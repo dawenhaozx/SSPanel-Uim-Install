@@ -1,8 +1,8 @@
 # SSPanel-Uim版本： Jan 17, 2024
 git clone -b dev https://github.com/dawenhaozx/SSPanel-Uim
 cd SSPanel-Uim
-# git reset --hard 6913425a23e3302122eb8dcfe86afada611bec9c
-# cd -
+git reset --hard f6658c06d8c307479327dda22c7a43b723cfcbc2
+cd -
 # Dev
 # git clone https://github.com/Meowpay/SSPanel-Uim-Dev.git SSPanel-Uim
 # 设置权限
