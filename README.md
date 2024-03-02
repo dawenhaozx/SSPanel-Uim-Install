@@ -7,16 +7,16 @@ sudo sh get-docker.sh
 ```
 clone项目并执行安装脚本
 ```
-git clone https://github.com/Meowpay/SSPanel-Uim-Install.git sspanel
+git clone https://github.com/dawenhaozx/SSPanel-Uim-Install.git sspanel
 cd sspanel 
 sh ./install.sh
 ```
 ## 注意事项
 SSpanel似乎必须要TLS才可以运行，否则cookie无效  
 解决办法：  
-覆盖conf.d/TLS 里的内容到 conf.d/
+覆盖conf.d/SSL 里的内容到 conf.d/
 ```
-mv conf.d/TLS/* conf.d/
+mv conf.d/SSL/* conf.d/
 ```
 修改域名及证书路径
 ```
