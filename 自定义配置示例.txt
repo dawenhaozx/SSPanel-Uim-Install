@@ -1,0 +1,35 @@
+自定义配置示例
+REALITY+XTLS
+
+{
+  "offset_port_user": "443",
+  "offset_port_node": "999",
+  "server_user": "www.example.com",
+  "host": "example.com",
+  "network": "tcp",
+  "security": "reality",
+  "enable_vless": "1",
+  "alter_id": "0",
+  "tls": "1",
+  "flow": "xtls-rprx-vision",
+  "encryption": "none",
+  "publicKey": "A1aMoqlOwG0zt8NxeTTZeV3SQAMoO9sXr7ZZC0GfhCw",
+  "privateKey": "kNN1VW1s22ysAvId-YR7-d7avufuv13TYOCj-NveylY",
+  "shortId": "d3876cea"
+}
+vless://$uuid@www.example.com:443?type=tcp&encryption=none&security=reality&sni=example.com&flow=xtls-rprx-vision&pbk=A1aMoqlOwG0zt8NxeTTZeV3SQAMoO9sXr7ZZC0GfhCw&sid=d3876cea&headerType=none&fp=chrome#REALITY
+
+WS+TLS
+
+{
+  "offset_port_user": "443",
+  "offset_port_node": "7777",
+  "server_user": "www.example.com",
+  "host": "www.example.com",
+  "alter_id": "0",
+  "enable_vless": "1",
+  "network": "ws",
+  "security": "tls",
+  "path": "/wss?ed=2048"
+}
+vless://$uuid@www.example.com:443?type=ws&encryption=none&security=tls&sni=www.example.com&path=%2Fwss%3Fed%3D2048&host=www.example.com&fp=chrome#WS
