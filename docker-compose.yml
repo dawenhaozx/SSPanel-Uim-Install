@@ -23,6 +23,8 @@ services:
     volumes:
       - ./conf.d/:/etc/nginx/conf.d/
       - ./SSPanel-Uim/:/var/www/SSPanel-Uim/
+      # - /etc/letsencrypt/live/fullchain.pem:/etc/letsencrypt/live/fullchain.pem
+      # - /etc/letsencrypt/live/privkey.pem:/etc/letsencrypt/live/privkey.pem
     ports:
       #- 80:80
       # 不需要https注释掉下行
